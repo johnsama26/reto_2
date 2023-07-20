@@ -41,3 +41,21 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: capa1
+    uniqueID: 798621475
+    locked: 0
+  - name: capa2
+    uniqueID: 97532435
+    locked: 0
+  - name: capa3
+    uniqueID: 1026601925
+    locked: 0
+  - name: capa4
+    uniqueID: 758307015
+    locked: 0
+  - name: capa5
+    uniqueID: 4262306955
+    locked: 0
+  - name: terrain
+    uniqueID: 3370582889
+    locked: 0
