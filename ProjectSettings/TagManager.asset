@@ -3,7 +3,13 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
+<<<<<<< HEAD
   tags: []
+=======
+  tags:
+  - trampas
+  - frutas
+>>>>>>> parent of db160a7 (prefabs)
   layers:
   - Default
   - TransparentFX
@@ -41,3 +47,24 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+<<<<<<< HEAD
+=======
+  - name: capa 1
+    uniqueID: 798621475
+    locked: 0
+  - name: capa 2
+    uniqueID: 97532435
+    locked: 0
+  - name: capa 3
+    uniqueID: 1026601925
+    locked: 0
+  - name: capa 4
+    uniqueID: 758307015
+    locked: 0
+  - name: capa 5
+    uniqueID: 4262306955
+    locked: 0
+  - name: terrain
+    uniqueID: 3370582889
+    locked: 0
+>>>>>>> parent of db160a7 (prefabs)
