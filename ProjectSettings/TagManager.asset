@@ -4,7 +4,13 @@
 TagManager:
   serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
   tags: []
+=======
+  tags:
+  - trampas
+  - frutas
+>>>>>>> parent of db160a7 (prefabs)
 =======
   tags:
   - trampas
@@ -48,7 +54,10 @@ TagManager:
     uniqueID: 0
     locked: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of db160a7 (prefabs)
   - name: capa 1
     uniqueID: 798621475
     locked: 0
@@ -67,4 +76,7 @@ TagManager:
   - name: terrain
     uniqueID: 3370582889
     locked: 0
+<<<<<<< HEAD
+>>>>>>> parent of db160a7 (prefabs)
+=======
 >>>>>>> parent of db160a7 (prefabs)
