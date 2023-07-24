@@ -6,6 +6,7 @@ TagManager:
   tags:
   - trampas
   - frutas
+  - Trampoline
   layers:
   - Default
   - TransparentFX
@@ -40,9 +41,6 @@ TagManager:
   - 
   - 
   m_SortingLayers:
-  - name: Default
-    uniqueID: 0
-    locked: 0
   - name: capa 1
     uniqueID: 798621475
     locked: 0
@@ -58,6 +56,12 @@ TagManager:
   - name: capa 5
     uniqueID: 4262306955
     locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
   - name: terrain
     uniqueID: 3370582889
+    locked: 0
+  - name: subterrain
+    uniqueID: 2832144573
     locked: 0
