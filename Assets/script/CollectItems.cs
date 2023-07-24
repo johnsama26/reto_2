@@ -17,7 +17,7 @@ public class CollectItems : MonoBehaviour
         {
             Destroy(collision.gameObject);
             frutas++;
-            frutasText.text = "frutas: " + frutas;
+            frutasText.text = "Score: " + frutas;
         }
     }
 }
