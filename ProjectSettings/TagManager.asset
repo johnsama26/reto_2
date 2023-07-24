@@ -3,14 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-<<<<<<< HEAD
   tags:
   - trampas
-  - frutas
-  - Trampoline
-=======
-  tags: []
->>>>>>> 31e28a43c61e0d1d5b1ea2a7414c7bc2b1cb2909
   layers:
   - Default
   - TransparentFX
@@ -45,33 +39,21 @@ TagManager:
   - 
   - 
   m_SortingLayers:
-<<<<<<< HEAD
-  - name: capa 1
-    uniqueID: 798621475
+  - name: capa 5
+    uniqueID: 22906861
     locked: 0
-  - name: capa 2
-    uniqueID: 97532435
+  - name: capa  4
+    uniqueID: 3419002249
     locked: 0
   - name: capa 3
-    uniqueID: 1026601925
+    uniqueID: 2401996071
     locked: 0
-  - name: capa 4
-    uniqueID: 758307015
+  - name: capa 2
+    uniqueID: 2231770239
     locked: 0
-  - name: capa 5
-    uniqueID: 4262306955
+  - name: capa 1
+    uniqueID: 167559669
     locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: terrain
-    uniqueID: 3370582889
-    locked: 0
-  - name: subterrain
-    uniqueID: 2832144573
-    locked: 0
-=======
-  - name: Default
-    uniqueID: 0
-    locked: 0
->>>>>>> 31e28a43c61e0d1d5b1ea2a7414c7bc2b1cb2909
