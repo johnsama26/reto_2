@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - trampas
+  - frutas
   layers:
   - Default
   - TransparentFX
@@ -12,7 +13,7 @@ TagManager:
   - 
   - Water
   - UI
-  - 
+  - ground
   - 
   - 
   - 
@@ -42,7 +43,7 @@ TagManager:
   - name: capa 5
     uniqueID: 22906861
     locked: 0
-  - name: capa  4
+  - name: capa 4
     uniqueID: 3419002249
     locked: 0
   - name: capa 3
@@ -56,4 +57,7 @@ TagManager:
     locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: terrain
+    uniqueID: 3952760179
     locked: 0
