@@ -6,6 +6,9 @@ TagManager:
   tags:
   - trampas
   - frutas
+  - damage
+  - reverseL
+  - reverseR
   layers:
   - Default
   - TransparentFX
