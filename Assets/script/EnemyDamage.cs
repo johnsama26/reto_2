@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class EnemyDamage : MonoBehaviour
 {
-    public GameObject Rino;
+    public GameObject Enemis;
     
     private Animator animR;
     public Transform target; 
@@ -27,7 +27,7 @@ public class EnemyDamage : MonoBehaviour
             offset = transform.position - target.position;
         }
 
-        animR = Rino.GetComponent<Animator>();
+        animR = Enemis.GetComponent<Animator>();
     }
 
 
@@ -37,7 +37,7 @@ public class EnemyDamage : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
          
-            Destroy(Rino);
+            Destroy(Enemis);
             Destroy(gameObject);
 
         }
