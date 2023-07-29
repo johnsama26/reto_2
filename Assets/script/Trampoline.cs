@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Trampoline : MonoBehaviour
 {
-    public Animator animator;
+    public Animation animator;
     public float jumpForce = 10f; // Fuerza del salto del trampolín
 
     private void OnCollisionEnter2D(Collision2D collision)
