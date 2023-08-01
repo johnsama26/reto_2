@@ -16,4 +16,10 @@ public class LevelTransition : MonoBehaviour
             SceneManager.LoadScene(nextLevelName);
         }
     }
+    public int nextScena;
+
+    private void Start()
+    {
+        nextScena = SceneManager.GetActiveScene().buildIndex + 1;
+    }
 }
