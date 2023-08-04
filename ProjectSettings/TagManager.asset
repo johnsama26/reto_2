@@ -9,6 +9,7 @@ TagManager:
   - damage
   - reverseL
   - reverseR
+  - vacio
   layers:
   - Default
   - TransparentFX
