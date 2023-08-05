@@ -10,6 +10,7 @@ TagManager:
   - reverseL
   - reverseR
   - vacio
+  - Bateria
   layers:
   - Default
   - TransparentFX
