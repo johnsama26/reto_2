@@ -121,7 +121,7 @@ MonoBehaviour:
   projectilePrefab: {fileID: 8789065868510184212, guid: 9fc057bc1a2e4914bb0310898d99882d, type: 3}
   shootForce: 15
   shootToRight: 0
-  projectileLifetime: 1
+  projectileLifetime: 2
   shootingDuration: 4
   restDuration: 0.7
 --- !u!1 &4861366837887818451

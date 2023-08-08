@@ -6,33 +6,39 @@ using UnityEngine.UI;
 
 public class ManagerCanvas : MonoBehaviour
 {
-    //Ajuste Volumen
+    // Ajuste Volumen
     public AudioSource audioSource;
     public Slider volumeSlider;
     public Slider sliderSet;
-    //Panel
+    // Panel
     public GameObject Panel;
-    //Toggle
+    // Toggle
     public Toggle audioToggle;
-  
 
     private void Start()
     {
-        float sliderValue = sliderSet.value;
-        volumeSlider.value = audioSource.volume;
-        audioToggle.isOn = audioSource.enabled;
+        // Recupera el valor del volumen guardado en PlayerPrefs
+        float savedVolume = PlayerPrefs.GetFloat("SavedVolume", 1.0f);
+        audioSource.volume = savedVolume;
+        volumeSlider.value = savedVolume;
+
+        // Recupera el estado del audio guardado en PlayerPrefs
+        bool savedAudioEnabled = PlayerPrefs.GetInt("SavedAudioEnabled", 1) == 1;
+        audioSource.enabled = savedAudioEnabled;
+        audioToggle.isOn = savedAudioEnabled;
     }
 
     public void SetVolume(float volume)
     {
         audioSource.volume = volume;
+        // Guarda el volumen actual en PlayerPrefs
+        PlayerPrefs.SetFloat("SavedVolume", volume);
     }
 
     public void Niveles(string nombre)
     {
         SceneManager.LoadScene(nombre);
     }
-
 
     public void Quit()
     {
@@ -50,9 +56,12 @@ public class ManagerCanvas : MonoBehaviour
         Panel.SetActive(false);
         Time.timeScale = 1;
     }
+
     public void ToggleAudio(bool isOn)
     {
         // Activar o desactivar el AudioT según el estado del Toggle
         audioSource.enabled = isOn;
+        // Guarda el estado del audio en PlayerPrefs
+        PlayerPrefs.SetInt("SavedAudioEnabled", isOn ? 1 : 0);
     }
 }

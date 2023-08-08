@@ -27,7 +27,7 @@ public class PlayerLife : MonoBehaviour
         else if (life < 2)
         {
             Destroy(hearts[1].gameObject);
-            //anim.SetTrigger("death");
+            anim.SetTrigger("hit");
         }
         else if (life < 3)
         {
@@ -41,6 +41,9 @@ public class PlayerLife : MonoBehaviour
         if (collision.gameObject.CompareTag("vacio"))
         {
             Die();
+            Destroy(hearts[0].gameObject);
+            Destroy(hearts[1].gameObject);
+            Destroy(hearts[2].gameObject);
         }
         if (collision.gameObject.CompareTag("trampas"))
         {
