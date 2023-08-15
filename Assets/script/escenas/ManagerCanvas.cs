@@ -64,4 +64,4 @@ public class ManagerCanvas : MonoBehaviour
         // Guarda el estado del audio en PlayerPrefs
         PlayerPrefs.SetInt("SavedAudioEnabled", isOn ? 1 : 0);
     }
-}
+  }
